@@ -1,8 +1,8 @@
-const xhrExample = require('./xhrFunction');
+const xhrRequest = require('./xhrRequest');
 
-describe ('Xmlhttprequest tester', function (){
+describe ('AJAX with XMLHttpRequest', function (){
 
-  it('Makes get request', () => {
+  xit('Makes get request', done => {
     const url = "https://reqres.in/api/products/1";
     const expectedObject = { 
       "data": 
@@ -15,11 +15,11 @@ describe ('Xmlhttprequest tester', function (){
           "pantone_value": "15-4020" 
         } 
     };
-    function callback(data) {
-      expect(data).toEqual(expectedObject);
+    var callback = function (data) {
+      expect(data).toMatchObject(expectedObject);
       done();
     }
-    xhrExample(url, callback);
+    xhrRequest.getRequest(url, callback);
   });
 
 });;
