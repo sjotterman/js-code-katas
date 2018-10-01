@@ -1,5 +1,10 @@
 const alphabetReplace = require('./alphabetReplace');
 
+/**
+ * Given a string, replace every letter with its position in the alphabet.
+ *
+ * Ignore any non-letter character
+ */
 describe ('Alphabet position replacement', function (){
 
   xit('first example', () => {
