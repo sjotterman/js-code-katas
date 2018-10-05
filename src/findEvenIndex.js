@@ -1,5 +1,5 @@
 
-var findEvenIndex = function (inputString) {
+var findEvenIndex = function (inputArray) {
 };
 
 module.exports = findEvenIndex;
