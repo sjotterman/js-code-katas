@@ -10,9 +10,5 @@ describe ('Reverse each word in sentence', function (){
     expect(stringReverse('Hello world')).toEqual('olleH dlrow');
   });
 
-  xit('Ignores punctuation', () => {
-    expect(stringReverse('Hello world.')).toEqual('olleH dlrow.');
-  });
-
 
 });;
