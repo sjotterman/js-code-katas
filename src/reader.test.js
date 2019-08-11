@@ -1,6 +1,6 @@
 const reader = require("./reader");
 
-describe("CSV reader", function() {
+describe("CSV reader", () => {
   it("reads first line from a csv", () => {
     const oneLineArray = ["John", "Doe", "34", "M", "Akron", "OH"];
     expect(reader.createArray("./src/files/oneLine.csv")).toEqual([
