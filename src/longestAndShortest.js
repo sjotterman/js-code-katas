@@ -1,5 +1,6 @@
 
-var longestAndShortest = function (...input) {
+const longestAndShortest = (...input) =>  {
 };
+
 
 module.exports = longestAndShortest;
