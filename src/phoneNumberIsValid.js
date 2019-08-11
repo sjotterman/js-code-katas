@@ -1,5 +1,5 @@
 
-var phoneNumberIsValid = function (inputString) {
+const phoneNumberIsValid = function (inputString) {
 };
 
 module.exports = phoneNumberIsValid;

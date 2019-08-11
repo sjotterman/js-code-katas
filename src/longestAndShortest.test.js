@@ -6,7 +6,7 @@ const longestAndShortest = require('./longestAndShortest');
 describe ('Find longest and shortest word', function (){
 
   xit('Handles single word', () => {
-    let expectedResponse = {
+    const expectedResponse = {
       longest: "Hello",
       shortest: "Hello"
     }
@@ -14,7 +14,7 @@ describe ('Find longest and shortest word', function (){
   });
 
   xit('Handles two words', () => {
-    let expectedResponse = {
+    const expectedResponse = {
       longest: "Hello",
       shortest: "Hi"
     }
@@ -22,7 +22,7 @@ describe ('Find longest and shortest word', function (){
   });
 
   xit('Handles multiple words', () => {
-    let expectedResponse = {
+    const expectedResponse = {
       longest: "Greetings",
       shortest: "Hi"
     }
@@ -30,7 +30,7 @@ describe ('Find longest and shortest word', function (){
   });
 
   xit('First appearing word is tiebreaker', () => {
-    let expectedResponse = {
+    const expectedResponse = {
       longest: "First",
       shortest: "Hi"
     }

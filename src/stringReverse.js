@@ -1,5 +1,5 @@
 
-var stringReverse = function (inputString) {
+const stringReverse = function (inputString) {
 };
 
 module.exports = stringReverse;

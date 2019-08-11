@@ -7,14 +7,14 @@ const scrollingText = require('./scrollingText');
 describe ('Scrolling Text', function (){
 
   xit('Short example', () => {
-    let inputArr = "abc";
-    let output = ["ABC","BCA","CAB"];
+    const inputArr = "abc";
+    const output = ["ABC","BCA","CAB"];
     expect(scrollingText(inputArr)).toEqual(output);
   });
 
   xit('Short example', () => {
-    let inputArr = "codewars";
-    let output = [ "CODEWARS", "ODEWARSC", "DEWARSCO", "EWARSCOD", "WARSCODE",
+    const inputArr = "codewars";
+    const output = [ "CODEWARS", "ODEWARSC", "DEWARSCO", "EWARSCOD", "WARSCODE",
                   "ARSCODEW" ,"RSCODEWA", "SCODEWAR" ];
     expect(scrollingText(inputArr)).toEqual(output);
   });

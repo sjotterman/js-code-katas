@@ -1,4 +1,4 @@
-var scrollingText =  function (inputstring) {
+const scrollingText =  function (inputstring) {
 }
 
 module.exports = scrollingText;

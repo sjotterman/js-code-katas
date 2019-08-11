@@ -15,7 +15,7 @@ describe ('Fizzbuzz', function (){
   });
 
   xit('Handles 1 through 20', () => {
-    let resultArray = [1, 2, 'Fizz', 4, 'Buzz', 'Fizz', 7, 8, 'Fizz',
+    const resultArray = [1, 2, 'Fizz', 4, 'Buzz', 'Fizz', 7, 8, 'Fizz',
   'Buzz', 11, 'Fizz', 13, 14, 'FizzBuzz', 16, 17, 'Fizz', 19, 'Buzz'];
     expect(fizzbuzz(20)).toEqual(resultArray);
   });
